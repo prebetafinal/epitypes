@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Epistemological file type classification for content management systems",
+    "lastUpdated": "2025-01-22"
+  },
+  "pages": {
+    "description": "Editable content files that can be opened in text editors",
+    "types": {
+        "text": {
+          "description": "Human-readable content",
+          "formats": {
+            "markdown": {
+              "extensions": ["md", "markdown", "mdown", "mkdn", "mkd"],
+              "mimeType": "text/markdown"
+            },
+            "html": {
+              "extensions": ["html", "htm", "xhtml"],
+              "mimeType": "text/html"
+            },
+            "xml": {
+              "extensions": ["xml", "xsl", "xslt", "rss", "atom"],
+              "mimeType": "application/xml"
+            },
+            "plaintext": {
+              "extensions": ["txt", "text", "log", "readme", ""],
+              "mimeType": "text/plain"
+            }
+          }
+        },
+        "code": {
+          "description": "Programming and scripting files",
+          "formats": {
+            "javascript": {
+              "extensions": ["js", "mjs", "cjs", "jsx"],
+              "mimeType": "application/javascript"
+            },
+            "typescript": {
+              "extensions": ["ts", "tsx"],
+              "mimeType": "application/typescript"
+            },
+            "vue": {
+              "extensions": ["vue"],
+              "mimeType": "text/x-vue"
+            },
+            "css": {
+              "extensions": ["css", "scss", "sass", "less"],
+              "mimeType": "text/css"
+            },
+            "python": {
+              "extensions": ["py", "pyw", "pyc"],
+              "mimeType": "text/x-python"
+            },
+            "ruby": {
+              "extensions": ["rb", "rbw"],
+              "mimeType": "application/x-ruby"
+            },
+            "java": {
+              "extensions": ["java"],
+              "mimeType": "text/x-java-source"
+            },
+            "c_cpp": {
+              "extensions": ["c", "cpp", "cxx", "cc", "h", "hpp"],
+              "mimeType": "text/x-c"
+            },
+            "php": {
+              "extensions": ["php", "php3", "php4", "php5", "phtml"],
+              "mimeType": "application/x-httpd-php"
+            }
+          }
+        },
+        "data": {
+          "description": "Structured data files",
+          "formats": {
+            "json": {
+              "extensions": ["json", "jsonc"],
+              "mimeType": "application/json"
+            },
+            "yaml": {
+              "extensions": ["yaml", "yml"],
+              "mimeType": "application/x-yaml"
+            },
+            "toml": {
+              "extensions": ["toml"],
+              "mimeType": "application/toml"
+            },
+            "csv": {
+              "extensions": ["csv"],
+              "mimeType": "text/csv"
+            },
+            "tsv": {
+              "extensions": ["tsv"],
+              "mimeType": "text/tab-separated-values"
+            }
+          }
+        },
+        "config": {
+          "description": "Configuration files",
+          "formats": {
+            "ini": {
+              "extensions": ["ini", "cfg", "conf"],
+              "mimeType": "text/plain"
+            },
+            "env": {
+              "extensions": ["env", "environment"],
+              "mimeType": "text/plain"
+            }
+          }
+        }
+      }
+    },
+    "assets": {
+      "description": "Non-editable files for consumption, reference, or use as materials",
+      "types": {
+        "media": {
+          "description": "Images, audio, and video files",
+          "formats": {
+            "images": {
+              "extensions": ["jpg", "jpeg", "png", "gif", "webp", "bmp", "ico", "tiff", "tif", "avif"],
+              "mimeType": "image/*"
+            },
+            "audio": {
+              "extensions": ["mp3", "wav", "flac", "ogg", "m4a", "aac"],
+              "mimeType": "audio/*"
+            },
+            "video": {
+              "extensions": ["mp4", "avi", "mov", "mkv", "wmv", "flv", "webm"],
+              "mimeType": "video/*"
+            }
+          }
+        },
+        "documents": {
+          "description": "Published and formatted documents",
+          "formats": {
+            "pdf": {
+              "extensions": ["pdf"],
+              "mimeType": "application/pdf"
+            },
+            "office": {
+              "extensions": ["doc", "docx", "xls", "xlsx", "ppt", "pptx"],
+              "mimeType": "application/vnd.ms-office"
+            },
+            "open_office": {
+              "extensions": ["odt", "ods", "odp"],
+              "mimeType": "application/vnd.oasis.opendocument"
+            },
+            "rtf": {
+              "extensions": ["rtf"],
+              "mimeType": "application/rtf"
+            },
+            "latex": {
+              "extensions": ["tex", "latex"],
+              "mimeType": "application/x-latex"
+            },
+            "ebooks": {
+              "extensions": ["epub", "mobi", "azw", "fb2"],
+              "mimeType": "application/epub+zip"
+            }
+          }
+        },
+        "archives": {
+          "description": "Compressed and packaged files",
+          "formats": {
+            "compressed": {
+              "extensions": ["zip", "rar", "7z", "tar", "gz", "bz2", "xz", "zst"],
+              "mimeType": "application/archive"
+            }
+          }
+        },
+        "materials": {
+          "description": "Source files and creative materials",
+          "formats": {
+            "vectors": {
+              "extensions": ["svg"],
+              "mimeType": "image/svg+xml"
+            },
+            "fonts": {
+              "extensions": ["ttf", "otf", "woff", "woff2", "eot"],
+              "mimeType": "font/*"
+            },
+            "design": {
+              "extensions": ["psd", "ai", "sketch", "fig", "xd"],
+              "mimeType": "application/octet-stream"
+            },
+            "3d": {
+              "extensions": ["blend", "3ds", "obj", "stl", "fbx"],
+              "mimeType": "application/octet-stream"
+            },
+            "diagrams": {
+              "extensions": ["dot", "gv", "mmd", "mermaid", "puml", "plantuml"],
+              "mimeType": "text/plain"
+            },
+            "audio_projects": {
+              "extensions": ["flp", "als", "ptx", "logic"],
+              "mimeType": "application/octet-stream"
+            }
+          }
+        }
+      }
+    },
+  "ignored": {
+    "description": "Items to ignore during file scanning",
+    "items": [".git", ".DS_Store", "Thumbs.db", ".svn", ".hg", ".epitome", ".gitignore", "node_modules", ".vscode", ".idea"]
+  }
+}
