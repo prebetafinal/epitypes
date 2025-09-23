@@ -36,7 +36,7 @@ Epitypes are file types classified by nature and purpose.  Three fundamental cat
 
 Unknown Files
 
-Files not listed in epitypes automatically fall into an "other" group. This handles cases like executables (.exe), system binaries, and all other formats non-relevant to content management.
+Files not listed in epitypes automatically fall into an "other" group. Things like executables (.exe), system binaries, and other non-relevant to content management formats. These cases should be handled by algorythms accordingly. 
 
 ## License
 

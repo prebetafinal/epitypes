@@ -1,0 +1,19 @@
+{
+  "name": "epitypes",
+  "version": "1.0.0",
+  "description": "File types classified by nature and purpose",
+  "main": "epitypes.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prebetafinal/epitypes.git"
+  },
+  "author": "Detectve T",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prebetafinal/epitypes/issues"
+  },
+  "homepage": "https://github.com/prebetafinal/epitypes#readme"
+}
