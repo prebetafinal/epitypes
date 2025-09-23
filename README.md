@@ -72,7 +72,7 @@ Each level and node  tends to be linguistically sound:
 
 This creates an epistemic hierarchy: pure human cognition → hybrid human-machine categories → technical specifications. 
 
-## Notes
+## Notes 📜
 The 'page' term works perfectly as long as it's presented as a page in the UI, regardless of its deeper nature, and this is something widely accepted in the domain.
 An asset seems natural without any explanation as the opposite of page in given context.
 
