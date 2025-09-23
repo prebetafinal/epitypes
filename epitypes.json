@@ -1,14 +1,23 @@
 {
   "metadata": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Epistemological file type classification for content management systems",
-    "lastUpdated": "2025-01-22"
+    "lastUpdated": "2025-23-09"
   },
   "pages": {
     "description": "Editable content files that can be opened in text editors",
     "types": {
-        "text": {
-          "description": "Human-readable content",
+        "raw": {
+          "description": "Unstructured human-readable content",
+          "formats": {
+            "plaintext": {
+              "extensions": ["txt", "text", "log", "readme", ""],
+              "mimeType": "text/plain"
+            }
+          }
+        },
+        "markup": {
+          "description": "Structured human-readable content with formatting",
           "formats": {
             "markdown": {
               "extensions": ["md", "markdown", "mdown", "mkdn", "mkd"],
@@ -21,10 +30,6 @@
             "xml": {
               "extensions": ["xml", "xsl", "xslt", "rss", "atom"],
               "mimeType": "application/xml"
-            },
-            "plaintext": {
-              "extensions": ["txt", "text", "log", "readme", ""],
-              "mimeType": "text/plain"
             }
           }
         },
@@ -88,6 +93,11 @@
               "extensions": ["csv"],
               "mimeType": "text/csv"
             },
+            "sql": {
+                "description": "Plain SQL schema/data dumps",
+                "extensions": ["sql", "ddl"],
+                "mimeType": "application/sql"
+              },
             "tsv": {
               "extensions": ["tsv"],
               "mimeType": "text/tab-separated-values"
@@ -115,7 +125,7 @@
         "media": {
           "description": "Images, audio, and video files",
           "formats": {
-            "images": {
+            "image": {
               "extensions": ["jpg", "jpeg", "png", "gif", "webp", "bmp", "ico", "tiff", "tif", "avif"],
               "mimeType": "image/*"
             },
@@ -152,7 +162,7 @@
               "extensions": ["tex", "latex"],
               "mimeType": "application/x-latex"
             },
-            "ebooks": {
+            "ebook": {
               "extensions": ["epub", "mobi", "azw", "fb2"],
               "mimeType": "application/epub+zip"
             }
@@ -170,11 +180,11 @@
         "materials": {
           "description": "Source files and creative materials",
           "formats": {
-            "vectors": {
+            "vector": {
               "extensions": ["svg"],
               "mimeType": "image/svg+xml"
             },
-            "fonts": {
+            "font": {
               "extensions": ["ttf", "otf", "woff", "woff2", "eot"],
               "mimeType": "font/*"
             },
@@ -186,12 +196,12 @@
               "extensions": ["blend", "3ds", "obj", "stl", "fbx"],
               "mimeType": "application/octet-stream"
             },
-            "diagrams": {
+            "diagram": {
               "extensions": ["dot", "gv", "mmd", "mermaid", "puml", "plantuml"],
               "mimeType": "text/plain"
             },
-            "audio_projects": {
-              "extensions": ["flp", "als", "ptx", "logic"],
+            "audio_project": {
+              "extensions": ["flp", "als", "ptx", "logic", "midi", "mid"],
               "mimeType": "application/octet-stream"
             }
           }
@@ -199,7 +209,7 @@
       }
     },
   "ignored": {
-    "description": "Items to ignore during file scanning",
+    "description": "Items to ignore even during file scanning",
     "items": [".git", ".DS_Store", "Thumbs.db", ".svn", ".hg", ".epitome", ".gitignore", "node_modules", ".vscode", ".idea"]
   }
 }

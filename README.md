@@ -73,7 +73,7 @@ The 'page' metaphor works perfectly as long as it's presented as a page in the U
 
 This classification is experimental so any income/feedback is welcome.
 
-Unknown Files
+## Unknown Files
 
 Files not listed in epitypes automatically fall into an "other" group. Things like executables (.exe), system binaries, and other non-relevant to content management formats. These cases should be handled by algorythms accordingly. 
 
