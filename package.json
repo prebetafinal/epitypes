@@ -1,6 +1,6 @@
 {
   "name": "epitypes",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "File types classified by nature and purpose",
   "main": "epitypes.json",
   "scripts": {
