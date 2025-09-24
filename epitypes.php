@@ -44,15 +44,7 @@ class epitypes {
             return ['ignored'];
         }
         
-        // Check if directory
-        if (is_dir($path)) {
-            return ['folder'];
-        }
-        
-        // Check if file exists
-        if (!is_file($path)) {
-            return ['ignored'];
-        }
+
         
         // Search in pages
         foreach ($this->data['pages']['types'] as $type => $typeData) {
