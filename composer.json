@@ -1,0 +1,19 @@
+{
+    "name": "prebetafinal/epitypes",
+    "description": "Epistemological file type classification for content management systems",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "files": ["epitypes.php"]
+    },
+    "authors": [
+        {
+            "name": "Detectve T"
+        }
+    ],
+    "homepage": "https://github.com/prebetafinal/epitypes",
+    "keywords": ["file-types", "classification", "content-management"]
+}

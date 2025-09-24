@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "version": "1.0.2",
+    "version": "1.1.2",
     "description": "Epistemological file type classification for content management systems",
     "lastUpdated": "23 Sep 2025"
   },
@@ -38,6 +38,7 @@
           }
         },
         "code": {
+          "description": "Scripting and programming files",
           "formats": {
             "web": {
               "extensions": ["js", "mjs", "cjs", "jsx", "ts", "tsx", "vue"]
@@ -89,7 +90,7 @@
       }
     },
   "assets": {
-      "description": "Non-editable files for consumption, reference, or use as materials",
+      "description": "Non-editable [mostly] files for consumption, reference, or use as materials",
       "types": {
         "media": {
           "description": "Images, audio, and video files",
@@ -165,7 +166,7 @@
       }
     },
   "ignored": {
-    "description": "Items to ignore even during file scanning",
+    "description": "Items to ignore during file scanning",
     "items": [".git", ".DS_Store", "Thumbs.db", ".svn", ".hg", ".epitome", ".gitignore", "node_modules", ".vscode", ".idea"]
   }
 }
