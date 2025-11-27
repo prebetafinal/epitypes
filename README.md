@@ -77,7 +77,7 @@ This creates an epistemic hierarchy: pure human cognition → hybrid human-machi
 The 'page' term works perfectly as long as it's presented as a page in the UI, regardless of its deeper nature, and this is something widely accepted in the domain.
 An asset seems natural without any explanation as the opposite of page in given context.
 
-This classification is experimental so any input/feedback is welcome.
+This classification is not final so any input/feedback is welcome.
 
 ### Unknown Files
 
@@ -87,3 +87,4 @@ Files not listed in epitypes automatically fall into an "other" group. Things li
 
 
 MIT
+
