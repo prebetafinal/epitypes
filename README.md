@@ -9,6 +9,7 @@ File systems organize by technical format (.jpg, .pdf, .mp3). Humans organize by
 Epitypes (epistemological types) bridge this gap using a three-level hierarchy:
 
 **Nature** - fundamental behavior
+- **Folders** - native file system directories 
 - **Pages** - files you edit (markdown, code, data, config)  
 - **Assets** - files you consume (media, documents, archives, materials)
 - **Ignore** - system files to skip (.DS_Store, .git, etc.)
@@ -83,5 +84,6 @@ This classification is experimental so any input/feedback is welcome.
 Files not listed in epitypes automatically fall into an "other" group. Things like executables (.exe), system binaries, and other irrelevant to content management formats. These cases should be handled by algorithms accordingly. 
 
 ## License
+
 
 MIT
